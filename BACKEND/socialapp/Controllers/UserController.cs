@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DAL.Data; // Import the DbContext if needed
+using Microsoft.EntityFrameworkCore; // Import the DbContext if needed
 using DAL.Models; // Import the User model if needed
+using DAL.Data;
 
 namespace socialapp.Controllers
 {
@@ -25,7 +26,7 @@ namespace socialapp.Controllers
 
         // GET: api/user/{id}
         [HttpGet("{id}")]
-        public IActionResult GetUserById(Guid id)
+        public IActionResult GetUserById(int id)
         {
             var user = _context.Users.Find(id);
 
@@ -51,7 +52,7 @@ namespace socialapp.Controllers
 
         // PUT: api/user/{id}
         [HttpPut("{id}")]
-        public IActionResult UpdateUser(Guid id, User updatedUser)
+        public IActionResult UpdateUser(int id, User updatedUser)
         {
             var user = _context.Users.Find(id);
 
@@ -70,7 +71,7 @@ namespace socialapp.Controllers
 
         // DELETE: api/user/{id}
         [HttpDelete("{id}")]
-        public IActionResult DeleteUser(Guid id)
+        public IActionResult DeleteUser(int id)
         {
             var user = _context.Users.Find(id);
 
