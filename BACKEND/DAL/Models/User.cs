@@ -13,9 +13,9 @@
         public string Descriere { get; set; }
         public DateTime DataNasterii { get; set; }
 
-        // Relații
+        
         public List<Post> Posts { get; set; }
-        public ProfilePicture ProfilePicture { get; set; } // Imaginea de profil
+        public ProfilePicture ProfilePicture { get; set; } 
         public List<FriendRequest> SentFriendRequests { get; set; }
         public List<FriendRequest> ReceivedFriendRequests { get; set; }
         public List<Chat> SentChats { get; set; }
@@ -23,5 +23,6 @@
         public List<Group> CreatedGroups { get; set; }
         public List<UserLikes> LikedPosts { get; set; }
         public List<UserComments> CommentedPosts { get; set; }
+        public ICollection<UserGroup> UserGroups { get; set; }
     }
 }

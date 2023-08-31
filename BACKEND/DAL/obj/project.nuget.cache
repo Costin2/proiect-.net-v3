@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YnrL33uXP6r2Gdle+m646PjupUgx3+Igq/xIo/prDFXOSZDTnirQ1y/WKuUfWMfkqQht0FxEKAXK4s8+5WUvxQ==",
+  "dgSpecHash": "nKeQcHhPJE0FtF636mQ5Uso4gZiyBXS5J+TYxP8G5v5hTrRQmKKYQh9clbE2G7yDgmyXwXJnWN40m9U2qKbW0w==",
   "success": true,
-  "projectFilePath": "G:\\proiect .net bun\\DAL\\DAL.csproj",
+  "projectFilePath": "G:\\proiect_net_bun\\BACKEND\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Costin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Costin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

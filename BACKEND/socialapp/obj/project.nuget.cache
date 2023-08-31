@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lvPExVZzAURSukNIpgoYRUnOz9L91PRASXjSCCBHCmIF/vM4px89R4w29DID9/lkiSTgbxcKpaVBVEuL5eVYGA==",
+  "dgSpecHash": "+cqrXcRYIjWyfr4WPuvu6XkQqSYT3y4ZQvni+MGtt8g+epSQKlSTx2zWcReeSwdmgOX3r8x0plKiomvoRtN5uA==",
   "success": true,
-  "projectFilePath": "G:\\proiect .net bun\\socialapp\\socialapp.csproj",
+  "projectFilePath": "G:\\proiect_net_bun\\BACKEND\\socialapp\\socialapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Costin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Costin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -12,14 +12,15 @@ namespace DAL.Data
 {
     public class Context : DbContext
     {
-        public DbSet<User> Users { get; set; }
-        public DbSet<Post> Posts { get; set; }
-        public DbSet<FriendRequest> FriendRequests { get; set; }
-        public DbSet<Chat> Chats { get; set; }
-        public DbSet<Group> Groups { get; set; }
-        public DbSet<UserLikes> UserLikes { get; set; }
-        public DbSet<UserComments> UserComments { get; set; }
-        
+        public DbSet<User> Users { get; set; } // User - M:1 with ProfilePicture, 1:M with Posts, 1:M with SentChats, 1:M with ReceivedChats, 1:M with SentFriendRequests, 1:M with ReceivedFriendRequests, 1:M with LikedPosts, 1:M with CommentedPosts
+        public DbSet<Post> Posts { get; set; } // Post - M:1 with User, 1:M with UserLikes, 1:M with UserComments
+        public DbSet<FriendRequest> FriendRequests { get; set; } // FriendRequest - 1:1 with SourceUser, 1:1 with DestinationUser
+        public DbSet<Chat> Chats { get; set; } // Chat - M:1 with Sender, M:1 with Recipient
+        public DbSet<Group> Groups { get; set; } // Group - M:1 with Owner
+        public DbSet<UserLikes> UserLikes { get; set; } // UserLikes - 1:1 with User, 1:1 with Post
+        public DbSet<UserComments> UserComments { get; set; } // UserComments - 1:1 with User, 1:1 with Post
+        public DbSet<UserGroup> UserGroups { get; set; }
+
         public Context(DbContextOptions<Context> options) : base(options)
         {
 
@@ -103,6 +104,18 @@ namespace DAL.Data
                 .HasForeignKey(uc => uc.Post_Id)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<UserGroup>()
+                .HasKey(ug => new { ug.UserId, ug.GroupId });
+
+            modelBuilder.Entity<UserGroup>()
+                .HasOne(ug => ug.User)
+                .WithMany(u => u.UserGroups)
+                .HasForeignKey(ug => ug.UserId);
+
+            modelBuilder.Entity<UserGroup>()
+                .HasOne(ug => ug.Group)
+                .WithMany(g => g.UserGroups)
+                .HasForeignKey(ug => ug.GroupId);
 
 
             base.OnModelCreating(modelBuilder);

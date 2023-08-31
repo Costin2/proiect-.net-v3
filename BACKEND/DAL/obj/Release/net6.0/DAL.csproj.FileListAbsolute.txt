@@ -12,3 +12,17 @@ G:\proiect .net bun\DAL\obj\Release\net6.0\refint\DAL.dll
 G:\proiect .net bun\DAL\obj\Release\net6.0\DAL.pdb
 G:\proiect .net bun\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
 G:\proiect .net bun\DAL\obj\Release\net6.0\ref\DAL.dll
+G:\proiect_net_bun\BACKEND\DAL\bin\Release\net6.0\DAL.deps.json
+G:\proiect_net_bun\BACKEND\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+G:\proiect_net_bun\BACKEND\DAL\bin\Release\net6.0\DAL.dll
+G:\proiect_net_bun\BACKEND\DAL\bin\Release\net6.0\DAL.pdb
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.dll
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\refint\DAL.dll
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.pdb
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+G:\proiect_net_bun\BACKEND\DAL\obj\Release\net6.0\ref\DAL.dll

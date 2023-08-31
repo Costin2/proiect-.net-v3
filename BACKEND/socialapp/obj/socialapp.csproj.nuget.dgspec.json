@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\proiect .net bun\\socialapp\\socialapp.csproj": {}
+    "G:\\proiect_net_bun\\BACKEND\\socialapp\\socialapp.csproj": {}
   },
   "projects": {
-    "G:\\proiect .net bun\\DAL\\DAL.csproj": {
+    "G:\\proiect_net_bun\\BACKEND\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\proiect .net bun\\DAL\\DAL.csproj",
+        "projectUniqueName": "G:\\proiect_net_bun\\BACKEND\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "G:\\proiect .net bun\\DAL\\DAL.csproj",
+        "projectPath": "G:\\proiect_net_bun\\BACKEND\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Costin\\.nuget\\packages\\",
-        "outputPath": "G:\\proiect .net bun\\DAL\\obj\\",
+        "outputPath": "G:\\proiect_net_bun\\BACKEND\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -80,14 +80,14 @@
         }
       }
     },
-    "G:\\proiect .net bun\\socialapp\\socialapp.csproj": {
+    "G:\\proiect_net_bun\\BACKEND\\socialapp\\socialapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\proiect .net bun\\socialapp\\socialapp.csproj",
+        "projectUniqueName": "G:\\proiect_net_bun\\BACKEND\\socialapp\\socialapp.csproj",
         "projectName": "socialapp",
-        "projectPath": "G:\\proiect .net bun\\socialapp\\socialapp.csproj",
+        "projectPath": "G:\\proiect_net_bun\\BACKEND\\socialapp\\socialapp.csproj",
         "packagesPath": "C:\\Users\\Costin\\.nuget\\packages\\",
-        "outputPath": "G:\\proiect .net bun\\socialapp\\obj\\",
+        "outputPath": "G:\\proiect_net_bun\\BACKEND\\socialapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,8 +109,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\proiect .net bun\\DAL\\DAL.csproj": {
-                "projectPath": "G:\\proiect .net bun\\DAL\\DAL.csproj"
+              "G:\\proiect_net_bun\\BACKEND\\DAL\\DAL.csproj": {
+                "projectPath": "G:\\proiect_net_bun\\BACKEND\\DAL\\DAL.csproj"
               }
             }
           }
