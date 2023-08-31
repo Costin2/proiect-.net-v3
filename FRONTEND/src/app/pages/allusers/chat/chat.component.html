@@ -1,0 +1,14 @@
+<div id="chat">
+  <h1>Chat between {{user1}} and {{user2}}</h1>
+
+  <div>
+    <div>
+      <li *ngFor="let mesaj of msgInboxArray"> {{mesaj.user}} : {{mesaj.msgText}}</li>
+    </div>
+
+    <div>
+      <input type="text" placeholder="Type message here" class="msg-input" [(ngModel)]="msgDto.msgText">
+      <button class="send-btn" (click)="send()">Send</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<app-meniu [isLogged]="isLogged()" [isAdmin]="isAdmin()" class="meniu"></app-meniu>
+<div *ngIf="isLogged()">
+  <app-userview [user]="getloggeduser()" [potschimbapoza]="true" id="utilizatorlogat"></app-userview>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+.user {
+  display: grid;
+  grid-template: "a b c";
+  width: 100px;
+}
+
+#informatii {
+  display: flex;
+  gap: 5px
+}
+
+#buton {
+  margin-left: 10px;
+}

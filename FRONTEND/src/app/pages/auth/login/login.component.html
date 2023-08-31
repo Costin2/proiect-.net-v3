@@ -1,0 +1,10 @@
+<mat-card id="formular" class=" full-page">
+  <form id="form">
+    <input class="input-text" type="text" id="username" placeholder="username" [(ngModel)]="username" name="username">
+    <input class="input-text" type="password" id="password" placeholder="password" [(ngModel)]="password" name="password">
+    <div *ngIf="errorMessage" style="color: red">
+      {{errorMessage}}
+    </div>
+    <button mat-raised-button (click)="login()" id="buton">Login</button>
+  </form>
+</mat-card>

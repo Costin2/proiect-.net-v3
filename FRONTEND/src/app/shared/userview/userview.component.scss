@@ -1,0 +1,24 @@
+.user {
+  margin-top: 10px;
+  width: 9%;
+  display: grid;
+  grid-template: "a b" "c c";
+  margin-right: 1%;
+}
+
+#imagineprofil {
+  margin-bottom: 5px;
+}
+
+#primul {
+  grid-area: a;
+}
+
+#doi {
+  grid-area: b;
+}
+
+#schimbapoza {
+  grid-area: c;
+  display: none;
+}

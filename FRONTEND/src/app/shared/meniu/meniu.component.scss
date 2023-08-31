@@ -1,0 +1,32 @@
+.meniu1 {
+  display: flex;
+  width: 100%;
+  background-color: #6700B4;
+  border-bottom: 1px solid #ccc;
+}
+
+.buton1 {
+  width: 100%;
+  background-color: #6700B4; 
+  color: #FFFFFF; 
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buton1:hover {
+  background-color: #9AF229;
+}
+
+#home, #posts, #login, #register, #admin_dashboard, #logout {
+  padding: 10px;
+  margin: 5px;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#home:hover, #posts:hover, #login:hover, #register:hover, #admin_dashboard:hover, #logout:hover {
+  background-color: #FF8D62;
+}
