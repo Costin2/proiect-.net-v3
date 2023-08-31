@@ -1,0 +1,4 @@
+<li *ngFor="let user of users" id="utilizatori">
+  <app-showuser [user]="user" (utilizatorApasat)="utilizatorApasat($event)"></app-showuser>
+</li>
+<router-outlet></router-outlet>

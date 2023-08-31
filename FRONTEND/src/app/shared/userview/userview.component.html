@@ -1,0 +1,26 @@
+<mat-card class="user" (click)="userApasat()">
+  <div id="primul">
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" *ngIf="potschimbapoza">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="schimbaImaginea()">
+        <mat-icon>build</mat-icon>
+        <span>Change profile picture</span>
+      </button>
+    </mat-menu>
+  </div>
+  <div id="doi">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{user.username}}</mat-card-title>
+        <mat-card-subtitle>{{user.firstName}}</mat-card-subtitle>
+        <mat-card-subtitle>{{user.lastName}}</mat-card-subtitle>
+        <img mat-card-sm-image [src]="image(user.picture)" alt="NON" id="imagineprofil">
+      </mat-card-title-group>
+    </mat-card-header>
+  </div>
+  <div id="schimbapoza">
+    <input type="file" placeholder="Choose file" (change)="onFileSelected($event)">
+  </div>
+</mat-card>

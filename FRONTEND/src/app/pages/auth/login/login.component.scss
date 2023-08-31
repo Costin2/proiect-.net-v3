@@ -1,0 +1,41 @@
+.full-page {
+  width: 40%;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9dcff;
+}
+
+#formular {
+  top: 10%;
+  left: 35%;
+  right: 35%;
+  width: 30%;
+  align-items: center;
+  background-color: linear-gradient(to bottom, #c9dcff, #91b7fc);
+}
+#form {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+#buton {
+  background-color: #91b7fc;
+}
+
+#username,
+#password {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 10px;
+}

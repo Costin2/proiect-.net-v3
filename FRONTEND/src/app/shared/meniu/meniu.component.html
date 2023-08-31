@@ -1,0 +1,8 @@
+<div class="meniu1">
+  <button mat-raised-button (click)="goHome()" class="buton1" id="home">Home</button>
+  <button mat-raised-button (click)="goUsers()" class="buton1" id="posts">Users</button>
+  <button *ngIf="!isLogged" mat-raised-button class="buton1" (click)="onSubmit()" id="login">Log in</button>
+  <button *ngIf="!isLogged" mat-raised-button class="buton1" (click)="signup()" id="register">Sign up</button>
+  <button *ngIf="isAdmin" mat-raised-button class="buton1" (click)="gotoAdmin()" id="admin_dashboard">AdminDashboard</button>
+  <button *ngIf="isLogged" mat-raised-button class="buton1" (click)="logout()" id="logout">Logout</button>
+</div>

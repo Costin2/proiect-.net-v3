@@ -1,0 +1,13 @@
+<mat-card class="user" (click)="userApasat()">
+  <div id="doi">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{user.username}}</mat-card-title>
+        <mat-card-subtitle>{{user.firstName}}</mat-card-subtitle>
+        <mat-card-subtitle>{{user.lastName}}</mat-card-subtitle>
+        <mat-icon *ngIf="hasmessages">info</mat-icon>
+        <img mat-card-sm-image [src]="image(user.picture)" alt="NON" id="imagineprofil">
+      </mat-card-title-group>
+    </mat-card-header>
+  </div>
+</mat-card>
